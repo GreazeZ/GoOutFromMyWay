@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar */
+nav {
+    display: flex;
+    background-color: rgb(70, 9, 100);
+    justify-content: space-around;
+    /* padding: 20px 0; */
+    color: rgb(194, 176, 211);
+    height: 50px;
+    align-items: center;
+}
+
+.nav-logo {
+    font-family:initial;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+nav ul li a:hover {
+    color: aliceblue;
+}
+
+/*============ BANNER =============*/
+.Banner {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Night.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.Banner {
+    text-align: center;
+    color: white;
+}
+
+.Banner h1 {
+    font-size: 30px;
+    padding-top: 200px;
+    margin-bottom: 10px;
+}
+.Banner h2 {
+    font-size: 60px;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+/*============ ABOUT =============*/
+
+.homenavbar {
+    display: flex;
+    background-color: rgb(36, 9, 100);
+    justify-content: space-around;
+    color: rgb(211, 199, 176);
+    height: 50px;
+    align-items: center;
+}
+
+.body-home {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(Bg\ 3.jpg);
+}
+
+.judulhome {
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+    /* KONTEN 1 */
+.Konten1 {
+    font-family: sans-serif;
+    color: aliceblue;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.Konten1 {
+    background-color: rgba(0, 0, 0, 0.658);
+    margin: 100px;
+}
+.sinopsis1 {
+    padding-left: 30px;
+}
+.information1 {
+    text-align: center;
+    padding-top: 10px;
+    background-color: black;
+}
+
+   /* KONTEN 2 */
+.Konten2 {
+    font-family: sans-serif;
+    color: aliceblue;
+    display: flex;
+    margin-bottom: 60px;
+}
+.Konten2 {
+    background-color: rgba(0, 0, 0, 0.658);
+    margin: 100px;
+}    
+.sinopsis2 {
+    padding-left: 30px;
+}
+.information2 {
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(8, 7, 7);
+}
+
+   /* KONTEN 3 */
+.Konten3 {
+    font-family: sans-serif;
+    color: aliceblue;
+    display: flex;
+    margin-bottom: 60px;
+}
+.Konten3 {
+    background-color: rgba(0, 0, 0, 0.658);
+    margin: 100px;
+}    
+.sinopsis3 {
+    padding-left: 30px;
+}
+.information3 {
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(8, 7, 7);
+}
+
+
+/*============ CONTACT =============*/
+
+.contactnavbar {
+    display: flex;
+    background-color: rgb(62, 2, 175);
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    align-items: center;
+}
+
+.body-contact {
+    font-family: 'Josefin Sans', sans-serif;
+    background-size: cover;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section {
+    padding: 45px 15%;
+}
+
+.contact {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    background-color: rgb(20, 0, 0);
+    align-items: center;
+    grid-gap: 6rem;
+}
+
+.contact-form h1 {
+    color: white;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: rgb(59, 212, 12);
+}
+
+.contact-form p {
+    color: white;
+    font-size: 1.0rem;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin-bottom: 2rem;
+}
+
+.contact-form form {
+    position: relative;
+}
+
+.contact-form form input,form textarea {
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: rgb(14, 0, 0);
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+
+.contact-img img {
+    max-width: 100%;
+    width: 720px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+
+/*============ CONTACT END =============*/
+
+/* ============== FOOTER ==============*/
+
+.footer {
+    padding: 30px 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer .social  {
+    text-align: center;
+    padding-bottom: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+}
+/* ============== FOOTER END ==============*/
+
+/* ============== Source ==============*/
+.all {
+    color: aliceblue;
+    background: rgb(23, 21, 21);
+    text-align: center;
+    margin: 70px 0px;
+
+}
+
+.src {
+    margin-bottom: 40px;
+}
+
+.src h1 {
+    font-size: 45px;
+}
